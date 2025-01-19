@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.drag0n.onboarding"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.drag0n.onboarding"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
