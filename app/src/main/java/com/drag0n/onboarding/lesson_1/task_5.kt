@@ -1,4 +1,4 @@
-package com.drag0n.onboarding.lesson_1.task_1
+package com.drag0n.onboarding.lesson_1
 
 fun main() {
     val second = 6480
