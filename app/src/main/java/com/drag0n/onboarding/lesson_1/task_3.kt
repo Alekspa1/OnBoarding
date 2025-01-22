@@ -9,7 +9,6 @@ fun main() {
             "Час полета $hourOfSpaceFlight\n" +
             "Минута полета $minuteOfSpaceFlight")
 
-
     hourOfSpaceFlight = "10"
     minuteOfSpaceFlight = "55"
     println("$hourOfSpaceFlight:$minuteOfSpaceFlight")
