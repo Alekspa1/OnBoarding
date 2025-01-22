@@ -1,24 +1,13 @@
 package com.drag0n.onboarding.lesson_1
 
+import java.util.Locale
+
 fun main() {
     val second = 6480
-    var hour= 0
-    var minute = 0
-    var secondCosmos = 0
-    for (i in 0..<second) {
-        secondCosmos++
-        if (secondCosmos == 60 ) {
-            minute++
-            secondCosmos = 0
-        }
-        if (minute == 60 ) {
-            hour++
-            minute = 0
-        }
-    }
+    val hour = second/3600
+    val minute = (second % 3600) / 60
+    val secondCosmos = second % 60
 
-    println(
-        hour.toString().map { "0$hour"}.joinToString() +
-            ":$minute" +
-            ":${ secondCosmos.toString().map { "0$secondCosmos" }.joinToString()}")
+    println(String.format(Locale.getDefault(),
+        "%02d:%02d:%02d", hour, minute, secondCosmos))
 }
