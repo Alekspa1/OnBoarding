@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.drag0n.onboarding"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.drag0n.onboarding"
