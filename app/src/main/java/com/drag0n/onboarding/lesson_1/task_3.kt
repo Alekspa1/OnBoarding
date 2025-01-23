@@ -1,6 +1,7 @@
 package com.drag0n.onboarding.lesson_1
 
 fun main() {
+
     val yearOfSpaceFlight = "1961"
     var hourOfSpaceFlight = "09"
     var minuteOfSpaceFlight = "07"
