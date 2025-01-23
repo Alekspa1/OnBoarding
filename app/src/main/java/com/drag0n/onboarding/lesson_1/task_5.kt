@@ -13,5 +13,6 @@ fun main() {
 
     println(String.format(Locale.getDefault(),
         "%02d:%02d:%02d", hour, minute, secondCosmos))
+
 }
 
