@@ -8,7 +8,6 @@ fun main() {
     val averageStudentThree = 3
     val averageStudentFour = 5
     println(averageGPA(averageStudentOne,averageStudentTwo,averageStudentThree,averageStudentFour))
-
 }
 fun averageGPA(
     averageOne:Int,
