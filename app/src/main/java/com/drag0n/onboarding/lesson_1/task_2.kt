@@ -4,6 +4,7 @@ fun main(){
 
     var numberOfOrders: Int = 75
     val thankYouText: String = "Благодарим вас за покупку в нашем магазине"
+
     println(numberOfOrders)
     println(thankYouText)
     var numberOfWorks = 2000
