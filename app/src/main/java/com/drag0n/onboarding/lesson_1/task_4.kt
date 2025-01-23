@@ -14,5 +14,4 @@ fun main() {
             "$seconds\n" +
             "$partOfYear\n" +
             "$apogee\n")
-
 }
