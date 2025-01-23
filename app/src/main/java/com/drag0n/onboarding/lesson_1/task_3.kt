@@ -13,5 +13,4 @@ fun main() {
     minuteOfSpaceFlight = "55"
     println("$hourOfSpaceFlight:$minuteOfSpaceFlight")
 
-
 }
