@@ -6,8 +6,8 @@ const val QUANTITY = 60
 
 fun main() {
     val second = 6480
-    val hour = second / 3600
-    val minute = (second % 3600) / QUANTITY
+    val hour = second / QUANTITY*60
+    val minute = (second % QUANTITY*60) / QUANTITY
     val secondCosmos = second % QUANTITY
 
     println(
