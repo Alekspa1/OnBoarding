@@ -1,7 +1,7 @@
 package com.drag0n.onboarding.lesson_3
 
 fun main() {
-    var value = 9
+    val value = 9
 
     fun calc (value: Int): String{
         var table = ""
