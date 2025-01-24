@@ -11,4 +11,5 @@ fun main() {
     //println("Количество работников: $numberOfWorks")
     numberOfWorks = 1999
     println("Количество работников: $numberOfWorks")
+
 }
