@@ -1,6 +1,5 @@
 package com.drag0n.onboarding.lesson_2
 
-import kotlin.math.roundToInt
 
 fun main() {
 
