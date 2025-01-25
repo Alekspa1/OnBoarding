@@ -4,14 +4,10 @@ import kotlin.math.roundToInt
 
 fun main() {
 
-    val baff = 1.4
+    val baff = 0.4
     val crystal = 7
     val iron = 11
 
-    println("Количество бонусных кристаллов: ${ countBaf(crystal, baff) }")
-    println("Количество бонусной железной руды: ${ countBaf(iron, baff) }")
-
-}
-fun countBaf(quantity: Int, baf: Double): Int {
-    return ((quantity*baf) - quantity).roundToInt()
+    println("Количество бонусных кристаллов: ${(crystal * baff).toInt()}")
+    println("Количество бонусной железной руды: ${(iron * baff).toInt()}")
 }
